@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw clean:*)",
+      "Bash(./mvnw dependency:tree -Dscope=test)",
+      "Bash(xargs -I{} unzip -l {})",
+      "WebFetch(domain:spring.io)",
+      "WebFetch(domain:github.com)",
+      "WebSearch"
+    ]
+  }
+}
